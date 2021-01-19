@@ -1,0 +1,43 @@
+.container {
+  max-width: 400px;
+  max-height: 900px;
+  margin: 0 auto;
+  background-color: #efefee;
+  box-shadow: 0 0 10px gray;
+  margin-top: 50px;
+  padding: 15px 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.trasection-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+
+.transection-form input{
+  width: 100%;
+  margin: 10px 0 ;
+  padding: 5px 0 ;
+
+}
+.transection-list{
+  margin: 0;
+  padding: 0;
+
+}
+
+.transection-list > li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding: 10px 5px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 4px;
+
+}
